@@ -22,15 +22,24 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.initUI()
 
     def initUI(self):
-        self.pixmap = QPixmap('field.jpg')
-        self.image = QLabel(self)
-        self.image.move(40, 50)
-        self.image.resize(350, 350)
-        self.image.setText("")
-        self.image.setPixmap(self.pixmap)
-        self.eraser.setStyleSheet("background-image: url(eraser.jpg)")
+        pass
 
+    def button1(self):
+        pass
 
+    def button2(self):
+        pass
+
+    def button3(self):
+        pass
+
+    def button4(self):
+        pass
+
+    def b(self):
+        label = QLabel("ehfffffff")
+        label.move(500, 150)
+        label.resize(500, 500)
 def run():
     app = QtWidgets.QApplication(sys.argv)
     ex = MainWindow()
